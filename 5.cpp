@@ -20,4 +20,6 @@ double Circle::calculateArea() {
 int main() {
     Circle c;
     c.setRadius(5.0);
-    cout << "Area: " << c.calculateArea
+    cout << "Area: " << c.calculateArea() << endl; // Added "endl" for proper formatting
+    return 0;
+}
